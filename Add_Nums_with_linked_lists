@@ -10,7 +10,6 @@ struct Node{
 
 Node* Add(Node *H1, Node *H2, int diff)
 {
-
 	Node *prevNode(NULL);
 	int temp_val=0;
 	if(H1->next != NULL && H2->next != NULL){
